@@ -158,7 +158,7 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="carousel my-12 mx-auto w-[80%] h-[370px]">
+    <div className="carousel my-12 mx-auto w-[80%] h-[320px]">
       <div className="relative overflow-hidden">
         <div className="flex justify-between absolute top left w-full h-[370px]">
           <button

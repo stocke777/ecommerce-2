@@ -4,7 +4,7 @@ type Props = {};
 
 const Sidebar = (props: Props) => {
 	return (
-		<div className='drawer fixed z-10'>
+		<div className='drawer fixed'>
 			<input
 				id='my-drawer'
 				type='checkbox'
@@ -15,7 +15,7 @@ const Sidebar = (props: Props) => {
 					htmlFor='my-drawer'
 					className='w-max h-screen flex justify-center align-middle flex-col cursor-pointer transition-colors ease-in-out fixed group'
 				>
-					<div className="ml-10 group-hover:bg-primary rounded-lg">
+					<div className="ml-5 group-hover:bg-primary rounded-lg">
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						fill='none'

@@ -20,9 +20,10 @@ export default function RootLayout({
       <body className={`${inter.className}`}>
         <Sidebar />
         <Navbar />
-        
+        <div className="w-[80%] mx-auto p-5">
         {children}
-        <Footer />
+        </div>
+        {/* <Footer /> */}
         </body>
     </html>
   )
