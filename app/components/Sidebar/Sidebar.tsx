@@ -4,7 +4,7 @@ type Props = {};
 
 const Sidebar = (props: Props) => {
 	return (
-		<div className='drawer absolute'>
+		<div className='drawer fixed z-10'>
 			<input
 				id='my-drawer'
 				type='checkbox'
@@ -37,7 +37,7 @@ const Sidebar = (props: Props) => {
 					htmlFor='my-drawer'
 					className='drawer-overlay'
 				></label>
-				<ul className='menu p-4 w-80 bg-base-100 text-base-content'>
+				<ul className='menu p-4 pt-20 w-60 bg-base-100 text-base-content'>
 					<li>
 						<a>Recommended</a>
 					</li>
@@ -51,6 +51,7 @@ const Sidebar = (props: Props) => {
 						<a>Categories</a>
 					</li>
 				</ul>
+				
 			</div>
 		</div>
 	);
