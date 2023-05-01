@@ -6,7 +6,7 @@ const Navbar = (props: Props) => {
 	return (
 		<div className='navbar bg-base-100 p-5'>
 			<div className='flex-1 pl-30'>
-				<h1 className=' normal-case text-4xl text-primary '>Tshirt Nation <span className="text-white">| Lets choose</span></h1>
+				<h1 className=' normal-case text-4xl text-primary '>Tshirt Nation <span className="text-white text-5xl">| Lets choose</span></h1>
 			</div>
 			<div className='flex-none mr-10'>
 				{/* Cart Icon  */}
@@ -35,13 +35,13 @@ const Navbar = (props: Props) => {
 					</label>
 					<div
 						tabIndex={0}
-						className='mt-3 card card-compact dropdown-content w-52 bg-base-100 shadow'
+						className='mt-3 card card-compact dropdown-content w-52 bg-slate-500 shadow'
 					>
 						<div className='card-body'>
-							<span className='font-bold text-lg'>8 Items</span>
-							<span className='text-info'>Subtotal: $999</span>
+							<span className='font-bold text-lg text-slate-200'>8 Items</span>
+							<span className=' text-slate-200 font-extrabold'>Subtotal: $999</span>
 							<div className='card-actions'>
-								<button className='btn btn-primary btn-block'>View cart</button>
+								<button className='btn btn-primary btn-block text-slate-200'>View cart</button>
 							</div>
 						</div>
 					</div>
@@ -69,19 +69,19 @@ const Navbar = (props: Props) => {
 					</label>
 					<ul
 						tabIndex={0}
-						className='menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52'
+						className='menu menu-compact dropdown-content mt-3 p-2 shadow bg-slate-500 rounded-box w-52'
 					>
 						<li>
-							<a className='justify-between'>
+							<a className='justify-between hover:bg-slate-100 hover:text-black'>
 								Profile
 								<span className='badge text-primary'>New</span>
 							</a>
 						</li>
 						<li>
-							<a>Settings</a>
+							<a className='justify-between hover:bg-slate-100 hover:text-black'>Settings</a>
 						</li>
 						<li>
-							<a>Logout</a>
+							<a className="justify-between hover:bg-slate-100 hover:text-black" >Logout</a>
 						</li>
 					</ul>
 				</div>

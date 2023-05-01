@@ -1,3 +1,5 @@
+import ProductView from "@/app/components/ProductView/ProductView";
+import ProductReview1 from "@/app/components/Reviews/Review";
 import React from "react";
 
 type Props = {
@@ -7,7 +9,7 @@ type Props = {
 };
 
 const page = ({ params }: Props) => {
-	return <div className="m-15">Itemmm {params.id}</div>;
+	return <div className="relative"><ProductView /><ProductReview1/></div>
 };
 
 export default page;
