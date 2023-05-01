@@ -7,7 +7,7 @@ type Props = {
 };
 
 const page = ({ params }: Props) => {
-	return <div className="ml-15">Item {params.id}</div>;
+	return <div className="m-15">Itemmm {params.id}</div>;
 };
 
 export default page;

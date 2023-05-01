@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
 	return (
-		<main className="flex items-center justify-center w-[80%] flex-col mx-auto">
+		<main className="flex items-center justify-center w-[100%] flex-col mx-auto">
 			<Hero />
 			<Divider />
 			<div className='m-5'>
