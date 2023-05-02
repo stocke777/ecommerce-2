@@ -9,7 +9,12 @@ type Props = {
 };
 
 const page = ({ params }: Props) => {
-	return <div className="relative"><ProductView /><ProductReview1/></div>
+	return (
+		<div className='relative'>
+			<ProductView />
+			<ProductReview1 />
+		</div>
+	);
 };
 
 export default page;

@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import Hero from "./components/Hero";
 import Carousel from "./components/Carousel/Carousel";
 import Divider from "./components/Divider";
-import Footer from "./components/Footer";
+import Categories from "./components/Categories";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,7 +42,7 @@ export default function Home() {
 					<span className='text-white text-5xl'>| Categories</span>
 				</h1>
 			</div>
-			<Carousel />
+			<Categories />
       
 		</main>
 	);

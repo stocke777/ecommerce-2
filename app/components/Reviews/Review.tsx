@@ -8,12 +8,12 @@ const ProductReview1 = () => {
         <div className="py-12 px-4 md:px-6 2xl:px-0 2xl:container 2xl:mx-auto flex justify-center items-center">
             <div className="flex flex-col justify-start items-start w-full space-y-8">
                 <div className="flex justify-start items-start">
-                    <p className="text-3xl lg:text-4xl font-semibold leading-7 lg:leading-9 text-gray-800">Reviews</p>
+                    <p className="text-3xl lg:text-4xl font-semibold leading-7 lg:leading-9 text-white">Reviews</p>
                 </div>
                 <div className="w-full flex justify-start items-start flex-col bg-gray-50 p-8">
                     <div className="flex flex-col md:flex-row justify-between w-full">
                         <div className="flex flex-row justify-between items-start">
-                            <p className="text-xl md:text-2xl font-medium leading-normal text-gray-800">Beautiful addition to the theme</p>
+                            <p className="text-xl md:text-2xl font-medium leading-normal text-primary">Beautiful addition to the theme</p>
                             <button onClick={() => setMenu(!menu)} className="ml-4 md:hidden">
                                 <svg className={"transform " + (menu ? "rotate-180" : "rotate-0")} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M15 12.5L10 7.5L5 12.5" stroke="#1F2937" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
@@ -129,10 +129,10 @@ const ProductReview1 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full flex justify-start items-start flex-col bg-gray-50 md:px-8 py-8">
+                    <div className="w-full flex justify-start items-start flex-col bg-gray-50 py-8">
                         <div className="flex flex-col md:flex-row justify-between w-full">
                             <div className="flex flex-row justify-between items-start">
-                                <p className="text-xl md:text-2xl font-medium leading-normal text-gray-800">Comfortable and minimal, just how I like it!</p>
+                                <p className="text-xl md:text-2xl font-medium leading-normal text-primary">Comfortable and minimal, just how I like it!</p>
                                 <button onClick={() => setMenu1(!menu1)} className="ml-4 md:hidden">
                                     <svg className={"transform " + (menu1 ? "rotate-180" : "rotate-0")} width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M15 12.5L10 7.5L5 12.5" stroke="#1F2937" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
