@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 type Props = {};
 
 const Navbar = (props: Props) => {
@@ -41,7 +41,7 @@ const Navbar = (props: Props) => {
 							<span className='font-bold text-lg text-slate-200'>8 Items</span>
 							<span className=' text-slate-200 font-extrabold'>Subtotal: $999</span>
 							<div className='card-actions'>
-								<button className='btn btn-primary btn-block text-slate-200'>View cart</button>
+								<Link href="/checkout/12"><button className='btn btn-primary btn-block text-slate-200'>View cart</button></Link>
 							</div>
 						</div>
 					</div>
