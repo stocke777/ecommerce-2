@@ -5,9 +5,8 @@ type Props = {}
 
 const page = (props: Props) => {
   return (
-    <div className='relative'>
+    <div className='relative z-[10]'>
       <Cart/>
-      {/* Hello */}
       </div>
   )
 }

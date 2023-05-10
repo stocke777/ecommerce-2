@@ -1,0 +1,19 @@
+{
+    "reviews": [
+      {
+        "productId": "2",
+        "title": "Great t-shirt!",
+        "description": "I love this t-shirt! The quality of the fabric is fantastic and it fits perfectly.",
+        "author": "John Smith",
+        "date": "2022-05-01"
+      },
+      {
+        "productId": "2",
+        "title": "Disappointing",
+        "description": "I was disappointed with this t-shirt. It shrunk in the wash and the fabric is too thin.",
+        "author": "Jane Doe",
+        "date": "2022-04-28"
+      }
+    ]
+  }
+  

@@ -1,7 +1,9 @@
 'use client'
 import React, { useState } from "react";
-
-const Product4 = () => {
+import { ProductDetailsType } from "@/app/types";
+const ProductView = ({productDetails, numberOfReviews}) => {
+    console.log(productDetails)
+    const {name, price, description, img} = productDetails
     const rating = 3
     const [rotate, setRotate] = useState(false);
     const [count, setCount] = useState(0);
@@ -23,7 +25,7 @@ const Product4 = () => {
 
                 <div className="  w-full sm:w-96 md:w-8/12 lg:w-6/12 items-center">
                     <p className=" focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 font-normal text-base leading-4 text-white">Home / Furniture / Wooden Stool</p>
-                    <h2 className="font-semibold lg:text-4xl text-3xl lg:leading-9 leading-7 text-primary mt-4">Wooden Stool</h2>
+                    <h2 className="font-semibold lg:text-4xl text-3xl lg:leading-9 leading-7 text-primary mt-4">{name}</h2>
 
                     <div className=" flex flex-row justify-between  mt-5">
                         <div className=" flex flex-row space-x-3">
@@ -58,11 +60,11 @@ const Product4 = () => {
                                 />
                             </svg>
                         </div>
-                        <p className="text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 font-normal text-base leading-4 hover:text-primary duration-100 cursor-pointer">22 reviews</p>
+                        <p className="text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 font-normal text-base leading-4 hover:text-primary duration-100 cursor-pointer">{numberOfReviews} reviews</p>
                     </div>
 
-                    <p className=" font-normal text-base leading-6 text-slate-300 mt-7">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using. Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
-                    <p className=" font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 mt-6 ">$ 790.89</p>
+                    <p className=" font-normal text-base leading-6 text-slate-300 mt-7">{description}</p>
+                    <p className=" font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 mt-6 ">$ {price}</p>
 
                     <div className="lg:mt-11 mt-10">
                         <div className="flex flex-row justify-between">
@@ -95,7 +97,7 @@ const Product4 = () => {
 
                 <div className=" w-full sm:w-96 md:w-8/12  lg:w-6/12 flex lg:flex-row flex-col lg:gap-8 sm:gap-6 gap-4">
                     <div className=" w-full lg:w-8/12 bg-gray-100 flex justify-center items-center">
-                        <img src="https://i.ibb.co/bRg2CJj/sam-moqadam-kvmds-Tr-GOBM-unsplash-removebg-preview-1.png" alt="Wooden Chair Previw" />
+                        <img src={img} alt="Wooden Chair Previw" />
                     </div>
                     <div className=" w-full lg:w-4/12 grid lg:grid-cols-1 sm:grid-cols-4 grid-cols-2 gap-6">
                         <div className="bg-gray-100 flex justify-center items-center py-4">
@@ -114,4 +116,4 @@ const Product4 = () => {
     );
 };
 
-export default Product4;
+export default ProductView;

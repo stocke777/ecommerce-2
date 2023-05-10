@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
 	return (
-		<main className="flex items-center justify-center w-[100%] flex-col mx-auto">
+		<main className="flex items-center justify-center w-[100%] flex-col mx-auto relative z-[-10]">
 			<Hero />
 			<Divider />
 			<div className='m-5'>
@@ -42,7 +42,9 @@ export default function Home() {
 					<span className='text-white text-5xl'>| Categories</span>
 				</h1>
 			</div>
+			
 			<Categories />
+			
       
 		</main>
 	);

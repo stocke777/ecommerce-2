@@ -2,7 +2,6 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from '@/app/components/Navbar/Navbar'
 import Sidebar from '@/app/components/Sidebar/Sidebar'
-import Footer from './components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -20,10 +19,9 @@ export default function RootLayout({
       <body className={`${inter.className}`}>
         <Sidebar />
         <Navbar />
-        <div className="w-[80%] mx-auto p-5">
+        <div className="w-[80%] mx-auto p-5 relative z-[10]">
         {children}
         </div>
-        {/* <Footer /> */}
         </body>
     </html>
   )

@@ -4,9 +4,10 @@ type Props = {};
 
 const Navbar = (props: Props) => {
 	return (
+		<div className="relative z-[100]">
 		<div className='navbar bg-base-100 p-5'>
 			<div className='flex-1 pl-30'>
-				<h1 className=' normal-case text-4xl text-primary '>Tshirt Nation <span className="text-white text-5xl">| Lets choose</span></h1>
+				<Link href='/'><h1 className=' normal-case text-4xl text-primary '>Tshirt Nation <span className="text-white text-5xl">| Lets choose</span></h1></Link>
 			</div>
 			<div className='flex-none mr-10'>
 				{/* Cart Icon  */}
@@ -86,6 +87,7 @@ const Navbar = (props: Props) => {
 					</ul>
 				</div>
 			</div>
+		</div>
 		</div>
 	);
 };

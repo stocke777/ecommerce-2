@@ -1,0 +1,28 @@
+{
+	"products": [
+		{
+			"id": "1",
+			"name": "Product 1",
+			"inStock": true,
+			"img": "https://img.freepik.com/premium-psd/mockup-plain-black-tshirt-coloured-background_125540-2409.jpg?w=2000",
+			"description":"A classic t-shirt made with high-quality cotton.",
+			"price": 111
+		},
+		{
+			"id": "2",
+			"name": "Product 2",
+			"inStock": true,
+			"img": "https://m.media-amazon.com/images/I/71pbCrsHhfL._UL1500_.jpg",
+			"description": "A stylish t-shirt with a unique graphic design.",
+			"price": 222
+		},
+		{
+			"id": "3",
+			"name": "Product 3",
+			"inStock": false,
+			"img": "https://cdn.shopify.com/s/files/1/1002/7150/products/New-Mockups---no-hanger---TShirt-Yellow.jpg",
+			"description": "A moisture-wicking t-shirt that keeps you cool and dry during intense workouts.",
+			"price": 333
+		}
+	]
+}
