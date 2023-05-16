@@ -1,7 +1,11 @@
 'use client'
 import React, { useState } from "react";
 import { ProductDetailsType } from "@/app/types";
-const ProductView = ({productDetails, numberOfReviews}) => {
+type ProductViewProps = {
+    productDetails: ProductDetailsType,
+    numberOfReviews: number
+}
+const ProductView = ({productDetails, numberOfReviews}:ProductViewProps) => {
     console.log(productDetails)
     const {name, price, description, img} = productDetails
     const rating = 3
@@ -24,7 +28,7 @@ const ProductView = ({productDetails, numberOfReviews}) => {
                 {/* <!-- Description Div --> */}
 
                 <div className="  w-full sm:w-96 md:w-8/12 lg:w-6/12 items-center">
-                    <p className=" focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 font-normal text-base leading-4 text-white">Home / Furniture / Wooden Stool</p>
+                    <p className=" focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 font-normal text-base leading-4 text-white">Home / Tshirts</p>
                     <h2 className="font-semibold lg:text-4xl text-3xl lg:leading-9 leading-7 text-primary mt-4">{name}</h2>
 
                     <div className=" flex flex-row justify-between  mt-5">
