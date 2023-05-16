@@ -3,62 +3,14 @@
 import { useState, useRef, useEffect } from 'react';
 
 // Data
-const data = {
-    "resources": [
-      {
-        "title": "Find me on Twitter",
-        "link": "https://twitter.com/kendalmintcode",
-        "imageUrl": "https://placeimg.com/300/300/any"
-      },
-      {
-        "title": "Welcome to Ark Labs",
-        "link": "https://ark-labs.co.uk",
-        "imageUrl": "https://placeimg.com/300/300/animals"
-      },
-      {
-        "title": "Some sort of third title",
-        "link": "https://twitter.com/kendalmintcode",
-        "imageUrl": "https://placeimg.com/300/300/architecture"
-      },
-      {
-        "title": "A personal site perhaps?",
-        "link": "https://robkendal.co.uk",
-        "imageUrl": "https://placeimg.com/300/300/nature"
-      },
-      {
-        "title": "Super item number five",
-        "link": "https://twitter.com/kendalmintcode",
-        "imageUrl": "https://placeimg.com/300/300/people"
-      },
-      {
-        "title": "Super item number six",
-        "link": "https://twitter.com/kendalmintcode",
-        "imageUrl": "https://placeimg.com/300/300/tech"
-      },
-      {
-        "title": "Super item number seven",
-        "link": "https://twitter.com/kendalmintcode",
-        "imageUrl": "https://placeimg.com/300/300/animals"
-      },
-      {
-        "title": "Super item number eight",
-        "link": "https://twitter.com/kendalmintcode",
-        "imageUrl": "https://placeimg.com/300/300/people"
-      },
-      {
-        "title": "Super item number the last",
-        "link": "https://twitter.com/kendalmintcode",
-        "imageUrl": "https://placeimg.com/300/300/tech"
-      }
-    ]
-  }
+
   
 
-const Carousel = () => {
+const Carousel = ({data}) => {
   const maxScrollWidth = useRef(0);
   const [currentIndex, setCurrentIndex] = useState(0);
   const carousel = useRef(null);
-
+console.log("YOOOOOOOOO", data)
   const movePrev = () => {
     if (currentIndex > 0) {
       setCurrentIndex((prevState) => prevState - 1);
