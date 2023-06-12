@@ -105,13 +105,13 @@ const ProductView = ({productDetails, numberOfReviews}:ProductViewProps) => {
                     </div>
                     <div className=" w-full lg:w-4/12 grid lg:grid-cols-1 sm:grid-cols-4 grid-cols-2 gap-6">
                         <div className="bg-gray-100 flex justify-center items-center py-4">
-                            <img src="https://i.ibb.co/0jX1zmR/sam-moqadam-kvmds-Tr-GOBM-unsplash-removebg-preview-1-1.png" alt="Wooden chair - preview 1" />
+                            <img src="https://images.pexels.com/photos/8532616/pexels-photo-8532616.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Tshirt - preview 1" />
                         </div>
                         <div className="bg-gray-100 flex justify-center items-center py-4">
-                            <img src="https://i.ibb.co/7zv1N5Q/sam-moqadam-kvmds-Tr-GOBM-unsplash-removebg-preview-2.png" alt="Wooden chair - preview 2" />
+                            <img src="https://images.pexels.com/photos/4066293/pexels-photo-4066293.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Tshirt - preview 2" />
                         </div>
                         <div className="bg-gray-100 flex justify-center items-center py-4">
-                            <img src="https://i.ibb.co/0jX1zmR/sam-moqadam-kvmds-Tr-GOBM-unsplash-removebg-preview-1-1.png" alt="Wooden chair- preview 3" />
+                            <img src="https://images.pexels.com/photos/8532611/pexels-photo-8532611.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Tshirt- preview 3" />
                         </div>
                     </div>
                 </div>

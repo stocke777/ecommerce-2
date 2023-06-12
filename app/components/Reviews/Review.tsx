@@ -135,28 +135,11 @@ const ProductReview1 = ({ reviews }: { reviews: ProductReviewType[] }) => {
 									{review.description}
 								</p>
 								<div className='hidden md:flex mt-6 flex-row justify-start items-start space-x-4'>
-									<div>
+									<div className="w-[200px] h-[200px] overflow-hidden">
 										<img
-											src='https://i.ibb.co/QXzVpHp/vincent-wachowiak-8g-Cm-EBVl6a-I-unsplash-1.png'
+
+											src='https://images.pexels.com/photos/9558929/pexels-photo-9558929.jpeg?auto=compress&cs=tinysrgb&w=600'
 											alt='chair-1'
-										/>
-									</div>
-									<div>
-										<img
-											src='https://i.ibb.co/znYKsbc/vincent-wachowiak-z-P316-KSOX0-E-unsplash-1.png'
-											alt='chair-2'
-										/>
-									</div>
-									<div className='hidden md:block'>
-										<img
-											src='https://i.ibb.co/QXzVpHp/vincent-wachowiak-8g-Cm-EBVl6a-I-unsplash-1.png'
-											alt='chair-3'
-										/>
-									</div>
-									<div className='hidden md:block'>
-										<img
-											src='https://i.ibb.co/znYKsbc/vincent-wachowiak-z-P316-KSOX0-E-unsplash-1.png'
-											alt='chair-4'
 										/>
 									</div>
 								</div>

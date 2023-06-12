@@ -73,10 +73,11 @@ const Navbar = (props: Props) => {
 						className='menu menu-compact dropdown-content mt-3 p-2 shadow bg-slate-500 rounded-box w-52'
 					>
 						<li>
-							<a className='justify-between hover:bg-slate-100 hover:text-black'>
+							<Link href="/user/12" className='justify-between hover:bg-slate-100 hover:text-black'>
 								Profile
 								<span className='badge text-primary'>New</span>
-							</a>
+							</Link>
+							
 						</li>
 						<li>
 							<a className='justify-between hover:bg-slate-100 hover:text-black'>Settings</a>

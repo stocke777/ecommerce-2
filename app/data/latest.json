@@ -1,27 +1,27 @@
 {
     "resources": [
       {
-        "title": "Find me on Twitter",
+        "title": "Item 1",
         "link": "https://twitter.com/kendalmintcode",
         "imageUrl": "images/l1.jpg"
       },
       {
-        "title": "Welcome to Ark Labs",
+        "title": "Item 1",
         "link": "https://ark-labs.co.uk",
         "imageUrl": "images/l2.jpg"
       },
       {
-        "title": "Some sort of third title",
+        "title": "Item 1",
         "link": "https://twitter.com/kendalmintcode",
         "imageUrl": "images/l3.jpg"
       },
       {
-        "title": "A personal site perhaps?",
+        "title": "Item 1",
         "link": "https://robkendal.co.uk",
         "imageUrl": "images/l4.jpg"
       },
       {
-        "title": "Super item number five",
+        "title": "Item 1",
         "link": "https://twitter.com/kendalmintcode",
         "imageUrl": "images/l5.jpg"
       }
