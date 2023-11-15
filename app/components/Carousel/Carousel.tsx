@@ -6,11 +6,11 @@ import { useState, useRef, useEffect } from 'react';
 
   
 
+// @ts-ignore
 const Carousel = ({data}) => {
   const maxScrollWidth = useRef(0);
   const [currentIndex, setCurrentIndex] = useState(0);
   const carousel = useRef(null);
-console.log("YOOOOOOOOO", data)
   const movePrev = () => {
     if (currentIndex > 0) {
       setCurrentIndex((prevState) => prevState - 1);
@@ -107,6 +107,7 @@ console.log("YOOOOOOOOO", data)
           ref={carousel}
           className="carousel-container relative flex gap-1 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"
         >
+          {/* @ts-ignore */}
           {data.resources.map((resource, index) => {
             return (
               <div
